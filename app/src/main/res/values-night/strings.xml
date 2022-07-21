@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="todo">TODO</string>
+    <string name="welcome_to_movie_me">Welcome to Movie Me</string>
+    <string name="the_best_movies_streaming_app_of_the_century">The best movies streaming app of the century</string>
+    <string name="get_start">Get start</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="change_language">Change language</string>
+    <string name="arabic">Arabic</string>
+</resources>

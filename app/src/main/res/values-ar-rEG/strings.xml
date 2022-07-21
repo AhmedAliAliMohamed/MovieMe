@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أفلامي</string>
+    <string name="welcome_to_movie_me">مرحباً بك في افلامي</string>
+    <string name="the_best_movies_streaming_app_of_the_century">أفضل تطبيق لبث الأفلام في القرن لجعل يومك أفضل!</string>
+    <string name="you_can_watch_new">يمكنك مشاهدة الأفلام والمسلسلات والبرامج التلفزيونية الجديدة والحصرية</string>
+    <string name="you_can_also_add_all_your_favorite">يمكنك ايضاً اضافة كل ما تحبه من افلام ومسلسلات وعروض تلفزيونية في قائمة المفضلات لديك</string>
+    <string name="get_start">لنبدء</string>
+    <string name="next">التالي</string>
+    <string name="back">رجوع</string>
+    <string name="change_language">تغير اللغة</string>
+    <string name="arabic">العربية</string>
+
+
+</resources>

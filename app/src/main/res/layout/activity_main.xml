@@ -4,4 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".Ui.MainActivity"
+    android:background="?attr/background_Color"
+    tools:viewBindingIgnore="">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_logo"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_180sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        android:layout_marginLeft="@dimen/_40sdp"
+        app:lottie_rawRes="@raw/movie_cut_logo" />
+
+    <ProgressBar
+
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lottie_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/Red"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:visibility="gone"/>
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/pb_splash"
+        style="@style/SpinKitView.ThreeBounce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/Red"
+        app:layout_constraintTop_toBottomOf="@id/lottie_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_15sdp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
