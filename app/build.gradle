@@ -59,8 +59,29 @@ dependencies {
     //INDUCATOR
     implementation("com.tbuonomo:dotsindicator:4.3")
 
-    implementation 'org.greenrobot:eventbus:3.0.0'
+    //EVENT BUS
+    implementation 'org.greenrobot:eventbus:3.2.0'
+
+    //FireBase
+    implementation platform('com.google.firebase:firebase-bom:30.2.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth:21.0.6'
+
+    //LIVE DATA AND LIFE CYCLES AND ANNOTATION
+    def lifecycle_version = "2.6.0-alpha01"
+    def arch_version = "2.1.0"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+    // Lifecycles only (without ViewModel or LiveData)
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+    // Annotation processor
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+
+
 
 
 }
-
+apply plugin: 'com.google.gms.google-services'

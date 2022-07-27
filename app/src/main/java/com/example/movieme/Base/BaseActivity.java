@@ -46,10 +46,11 @@ public abstract class BaseActivity extends AppCompatActivity {
     public void DefineToolbar(String Title) {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayUseLogoEnabled(false);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        toolbar.setNavigationIcon(R.drawable.ic_baseline_arrow_back_24);
         getSupportActionBar().setTitle(Title);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

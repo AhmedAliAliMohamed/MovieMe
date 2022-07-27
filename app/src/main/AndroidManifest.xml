@@ -13,19 +13,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MovieMe.light"
         tools:targetApi="31">
-
         <activity
-            android:name=".Ui.AppInfoActivity"
-            android:exported="false"
-            android:theme="@style/Theme.MovieMe.light.NoActionBarStatusBar"/>
-        <activity
-            android:name=".Ui.MainActivity"
-            android:exported="true">
+            android:name=".Ui.SignUp.SignUpActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MovieMe.light.NoActionBarStatusBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ui.SignIn.SignInEmailAndPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MovieMe.light.NoActionBarStatusBar"/>
+        <activity
+            android:name=".Ui.SignIn.SignInWithAnthorActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MovieMe.light.NoActionBarStatusBar" />
+        <activity
+            android:name=".Ui.AppInfoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MovieMe.light.NoActionBarStatusBar" />
+        <activity
+            android:name=".Ui.MainActivity"
+            android:exported="false">
+
         </activity>
     </application>
 

@@ -14,6 +14,9 @@
         <!-- Customize your theme here. -->
         <item name="background_Color">@color/white</item>
         <item name="text_color">@color/black</item>
+        <item name="text_color_questions">@color/Gray</item>
+        <item name="background_Color_card_view">@color/white</item>
+
     </style>
 
 

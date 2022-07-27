@@ -15,9 +15,18 @@
         <!-- Customize your theme here. -->
         <item name="background_Color">@color/white</item>
         <item name="text_color">@color/black</item>
-
+        <item name="text_color_questions">@color/Gray</item>
+        <item name="background_Color_card_view">@color/white</item>
 
     </style>
+
+    <style name="toolbar_theme_light" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+
     <style name="Theme.MovieMe.light.NoActionBarStatusBar">
             <item name="windowActionBar">false</item>
             <item name="windowNoTitle">true</item>

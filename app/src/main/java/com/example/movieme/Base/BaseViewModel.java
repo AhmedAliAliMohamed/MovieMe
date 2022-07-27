@@ -8,7 +8,6 @@ import androidx.lifecycle.AndroidViewModel;
 
 public class BaseViewModel extends AndroidViewModel {
     public Context context;
-
     public BaseViewModel(@NonNull Application application) {
         super(application);
         context = application.getApplicationContext();

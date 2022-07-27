@@ -6,6 +6,9 @@
     android:id="@+id/toolbar"
     android:orientation="vertical"
     app:theme="@style/toolbar_theme_light"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    app:titleTextColor="?attr/text_color"
     android:background="?attr/background_Color">
 
 </androidx.appcompat.widget.Toolbar>

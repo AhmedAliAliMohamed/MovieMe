@@ -5,6 +5,15 @@
       <map>
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable-v24/ic_check.xml" value="0.143" />
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/defaukt_indicator.xml" value="0.1" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/ed_shap_sign.xml" value="0.248" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/ed_shape_outline_black.xml" value="0.248" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/ed_shape_sign.xml" value="0.248" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/ed_shape_sign_outline_black.xml" value="0.143" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.248" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/ic_icons8_facebook_circled.xml" value="0.143" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/ic_icons8_google.xml" value="0.248" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/ic_icons8_lock_26.xml" value="0.248" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/ic_icons8_twitter.xml" value="0.248" />
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/ic_language.xml" value="0.248" />
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/indicator_selector.xml" value="0.1" />
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/progress_bar.xml" value="0.1165" />
@@ -12,6 +21,10 @@
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/drawable/shape_of_button_intro.xml" value="0.1" />
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/layout/activity_app_info.xml" value="0.1" />
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/layout/activity_sigin_in_email_and_password.xml" value="0.20945945945945946" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/layout/activity_sign_in_email_and_password.xml" value="0.1" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/layout/activity_sign_in_with_anthor.xml" value="0.12" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/layout/activity_sign_up.xml" value="0.335014409221902" />
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/layout/fragment_blank.xml" value="0.1" />
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/layout/fragment_change_language.xml" value="0.2" />
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/layout/item_view_pager_intro.xml" value="0.24114583333333334" />
@@ -19,6 +32,7 @@
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/layout/open_sheet_layout.xml" value="0.20855855855855857" />
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/layout/toolbar.xml" value="0.180859375" />
         <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/menu/back_press.xml" value="0.10520833333333333" />
+        <entry key="..\:/Users/Ahmed/Desktop/MovieMe/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1175" />
       </map>
     </option>
   </component>
@@ -31,7 +45,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.1" />
+        <option name="scale" value="0.2" />
       </ProjectState>
     </option>
   </component>

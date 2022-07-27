@@ -32,7 +32,6 @@ public class MainActivity extends BaseActivity {
            },DAILY);
 
 
-
     }
 
     @Override
@@ -46,7 +45,6 @@ public class MainActivity extends BaseActivity {
         View view = binding.getRoot();
         return view;
     }
-
     @Override
     public void initObservers() {
 
