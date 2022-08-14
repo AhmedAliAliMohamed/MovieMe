@@ -23,11 +23,14 @@
     <string name="create_your_account">انشاء حساب</string>
     <string name="remember_me">تذكرني</string>
     <string name="or_continue_with">او اسمتر مع</string>
-    <string name="already_have_an_account">هل لديك حساب بالفعل؟</string>
+    <string name="already_have_an_account">هل لديك حساب بالفعل ؟</string>
     <string name="sign_in">تسجيل الدخول</string>
     <string name="you_can_not_enter_empty_value">لا يمكنك ادخل قيمة فارغة</string>
     <string name="the_email_not_matching">البريد الإلكتروني غير مطابق</string>
     <string name="password_must_be_less_than">"يجب ان تكون كلمة السر اقل من 20 واكثر من 8"</string>
+    <string name="alert">تنبيه</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">حسنآ</string>
 
 
 </resources>

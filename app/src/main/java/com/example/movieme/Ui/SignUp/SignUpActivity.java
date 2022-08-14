@@ -81,7 +81,6 @@ public class SignUpActivity extends BaseActivity {
            viewModelSignUp.getValid();
            deActiveBtn(false,"");
             binding.pbSignUp.setVisibility(View.VISIBLE);
-
         });
     }
 

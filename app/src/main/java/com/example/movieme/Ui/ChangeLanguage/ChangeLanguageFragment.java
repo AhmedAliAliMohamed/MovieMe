@@ -2,7 +2,10 @@ package com.example.movieme.Ui.ChangeLanguage;
 
 import static com.example.movieme.Utilities.CommonMethod.getLanguageId;
 
+import android.app.Dialog;
 import android.content.res.Configuration;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -11,12 +14,14 @@ import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.Toast;
 
 import com.example.movieme.App.LocalHelper;
 import com.example.movieme.Base.BaseFragment;
 import com.example.movieme.Base.BaseViewModel;
 import com.example.movieme.R;
+import com.example.movieme.Utilities.CommonMethod;
 import com.example.movieme.Utilities.Events.DismissDialogEvent;
 import com.example.movieme.Utilities.SharedPreferenceHelper;
 import com.example.movieme.databinding.FragmentChangeLanguageBinding;
@@ -39,8 +44,7 @@ public class ChangeLanguageFragment extends BaseFragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container
             , @Nullable Bundle savedInstanceState) {
-        binding = FragmentChangeLanguageBinding.inflate(inflater,container,false);
-        initLanguage();
+        binding = FragmentChangeLanguageBinding.inflate(inflater, container, false);
         initListener();
         return binding.getRoot();
     }
@@ -56,24 +60,22 @@ public class ChangeLanguageFragment extends BaseFragment {
     }
 
 
+    private void initListener() {
+        binding.btnCancel.setOnClickListener(v -> {
+            EventBus.getDefault().post(new DismissDialogEvent());
+        });
 
-    private void initListener(){
-        binding.cvClose.setOnClickListener(v -> { EventBus.getDefault().post(new DismissDialogEvent()); });
-
-        binding.rlArabic.setOnClickListener(v -> {
-            binding.ivArabicChecked.setVisibility(View.VISIBLE);
-            SharedPreferenceHelper.setSharedPreferenceString(context,SharedPreferenceHelper.Keys.LANGUAGE_KEY.getValue(),SharedPreferenceHelper.Keys.AR.getValue());
+        binding.btnOk.setOnClickListener(v -> {
+            if (CommonMethod.getLanguageId(getActivity()).equalsIgnoreCase("en")) {
+                SharedPreferenceHelper.setSharedPreferenceString(context, SharedPreferenceHelper.Keys.LANGUAGE_KEY.getValue(), SharedPreferenceHelper.Keys.AR.getValue());
+            } else {
+                SharedPreferenceHelper.setSharedPreferenceString(context, SharedPreferenceHelper.Keys.LANGUAGE_KEY.getValue(), SharedPreferenceHelper.Keys.EN.getValue());
+            }
             LocalHelper.setLocal(context);
             refreshScreen();
 
-        });
-        binding.rlEnglish.setOnClickListener(v ->{
-            binding.ivEnglishChecked.setVisibility(View.VISIBLE);
-            SharedPreferenceHelper.setSharedPreferenceString(context,SharedPreferenceHelper.Keys.LANGUAGE_KEY.getValue(),SharedPreferenceHelper.Keys.EN.getValue());
-            LocalHelper.setLocal(context);
-            refreshScreen();
-        });
 
+        });
     }
 
     private void refreshScreen() {
@@ -84,16 +86,6 @@ public class ChangeLanguageFragment extends BaseFragment {
 
     }
 
-    private void initLanguage() {
-        if (getLanguageId(context).equalsIgnoreCase("ar")) {
-            binding.ivArabicChecked.setVisibility(View.VISIBLE);
-            binding.ivEnglishChecked.setVisibility(View.GONE);
-
-        } else if (getLanguageId(context).equalsIgnoreCase("en")){
-            binding.ivEnglishChecked.setVisibility(View.VISIBLE);
-            binding.ivArabicChecked.setVisibility(View.GONE);
-        }
-
-    }
 
 }
+

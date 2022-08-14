@@ -1,20 +1,20 @@
 {
   "project_info": {
-    "project_number": "321542648941",
-    "project_id": "movieme-fb7fe",
-    "storage_bucket": "movieme-fb7fe.appspot.com"
+    "project_number": "752037573647",
+    "project_id": "movieme-357023",
+    "storage_bucket": "movieme-357023.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:321542648941:android:bc5dd50a1e9a47d483bb64",
+        "mobilesdk_app_id": "1:752037573647:android:76255a71d015d04b2a1f7a",
         "android_client_info": {
           "package_name": "com.example.movieme"
         }
       },
       "oauth_client": [
         {
-          "client_id": "321542648941-4c8f828oqg1e3706tq9hver70r0p2nqr.apps.googleusercontent.com",
+          "client_id": "752037573647-5ukood8jh2pkbj4l5l6h3v9dpqnnvqpv.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.movieme",
@@ -22,20 +22,20 @@
           }
         },
         {
-          "client_id": "321542648941-5j8hmr6ab9icrj775ktl8on91viggju0.apps.googleusercontent.com",
+          "client_id": "752037573647-09l9f29tdop56rfrkdu16f1skckc7kl9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDomX4CyYPOHt398TcXOcaxiqUG2WW_lBw"
+          "current_key": "AIzaSyDXYPKZtOeZVdmgfQZQWkUYk1eXnsC4aWQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "321542648941-5j8hmr6ab9icrj775ktl8on91viggju0.apps.googleusercontent.com",
+              "client_id": "752037573647-09l9f29tdop56rfrkdu16f1skckc7kl9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

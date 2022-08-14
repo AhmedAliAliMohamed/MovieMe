@@ -12,5 +12,6 @@
     <color name="Navy">#04507F</color>
     <color name="gray_ed_bg_color">#EEEEF0</color>
     <color name="lang_divider_color">#E6E6E6</color>
+    <color name="transparent">#00000000</color>
 
 </resources>

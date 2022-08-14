@@ -21,10 +21,13 @@
     <string name="create_your_account">Create your Account</string>
     <string name="remember_me">Remember me</string>
     <string name="or_continue_with">Or continue with</string>
-    <string name="already_have_an_account">Already have an account?</string>
+    <string name="already_have_an_account">Already have an account ?</string>
     <string name="sign_in">Sign in</string>
     <string name="you_can_not_enter_empty_value">You can\'t enter an empty value</string>
     <string name="the_email_not_matching">The email not matching</string>
     <string name="password_must_be_less_than">"Password must be less than 20 and more than"</string>
+    <string name="alert">Alert</string>
+    <string name="cancel">cancel</string>
+    <string name="ok">Ok</string>
 
 </resources>
