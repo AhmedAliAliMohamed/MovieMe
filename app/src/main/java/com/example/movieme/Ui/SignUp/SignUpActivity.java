@@ -29,6 +29,14 @@ public class SignUpActivity extends BaseActivity {
         statusBarHideAndActionBar();
         DefineToolbar("");
         initListener();
+
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        editChange();
     }
 
     public void DefineToolbar(String title){
@@ -90,6 +98,12 @@ public class SignUpActivity extends BaseActivity {
         binding.btnSignUp.setFocusable(active);
         binding.btnSignUp.setText(text);
 
+    }
+
+    private void  editChange(){
+   /*     if (binding.edEmail.){
+            Toast.makeText(context, "Ahmed", Toast.LENGTH_SHORT).show();
+        }*/
     }
 
 
